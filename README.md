@@ -6,9 +6,9 @@
 ```
 kaggle competitions download -c ai-mathematical-olympiad-prize
 
-unzip -d ai-mathematical-olympiad-prize ai-mathematical-olympiad-prize.zip
+unzip -d /path/to/data/ai-mathematical-olympiad ai-mathematical-olympiad-prize.zip
 
-sudo ln -s ai-mathematical-olympiad-prize/path/to/project/data/ai-mathematical-olympiad-prize
+sudo ln -s /path/to/data/ai-mathematical-olympiad ${project_path}/data/ai-mathematical-olympiad
 ```
 
 ## Python Environment Setup
